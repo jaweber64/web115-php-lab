@@ -1,0 +1,52 @@
+body {
+    font-family: "Comic Sans MS";
+    background-image: url("lgrey005.jpg");
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,h3 {font-family: "Comic Sans MS";
+    font-weight: bold;
+    color: midnightblue;
+    text-align: center; }
+
+h2 {font-family: "Comic Sans MS";
+    font-weight: bold;
+    color: midnightblue;
+    text-align: left;}
+
+.w3-container{
+    max-width: 1060px;
+    margin: 5px auto;
+    border-radius: 20px;
+    border: 3px solid midnightblue;
+    color: midnightblue;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav a {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 2px solid midnightblue;
+    background: lightgrey;
+    color: midnightblue;
+    text-decoration: none;
+    margin: 5px 15px;
+}
+
+nav a:hover,
+nav a:visited {
+    color: pink;
+    text-decoration: underline;
+    background: midnightblue;
+}
+
+footer {
+    text-align: right;
+}
